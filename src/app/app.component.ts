@@ -19,9 +19,9 @@ export class AppComponent implements OnInit, AfterViewInit {
   el = document.getElementById('typeWriter');
 
   myData: string[] = [
-    'I am Creative.',
-    'I Love Design.',
-    'I Love to Develop.'];
+    'A Web Devloper.',
+    'A UI/UX Designer.',
+    'A Software Engineer'];
   currentData = '';
 
   ngOnInit() {}
